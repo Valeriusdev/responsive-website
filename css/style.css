@@ -24,10 +24,26 @@ a {
     padding: 0 10px;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #151515;
+}
+
+/* .header-main {
+   background-color: transparent; 
+} */
+
 .header__inner {
     padding-top: 40px;
+    padding-bottom: 45px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    align-items: flex-end;   
 }
 
 .menu__list {
@@ -35,7 +51,8 @@ a {
     gap: 35px;
 }
 
-.menu__list__link {
+.menu__list-link {
    color: #fff;
-   text-transform: uppercase;    
+   text-transform: uppercase;  
+   font-weight: 700;  
 }
