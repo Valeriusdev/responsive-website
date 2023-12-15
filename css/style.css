@@ -45,9 +45,9 @@ body {
     background-color: #151515;
 }
 
-/* .header-main {
+.header-main {
    background-color: transparent; 
-} */
+}
 
 .header__inner {
     padding-top: 40px;
