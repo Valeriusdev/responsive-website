@@ -485,3 +485,22 @@ footer {
     border: 1px solid #0066FF;
     border-top: 0;
 }
+
+@media (max-width: 1180px) {
+    .important__list {
+        gap: 30px 20px;
+    } 
+    .important__item-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px) {
+    .why-lease__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .important__list {
+        grid-template-columns: repeat(2, 1fr);    
+    }
+}
