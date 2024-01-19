@@ -83,6 +83,10 @@ body {
     color: #0066FF;
 }
 
+.menu__list-link--inactive {
+    color:rgb(213, 213, 213);
+}
+
 footer {
     background-color: #151515;
     padding: 50px 0 32px;
