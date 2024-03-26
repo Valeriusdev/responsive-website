@@ -68,6 +68,11 @@ body {
     align-items: center;   
 }
 
+.logo__img {
+    width: 200px;
+    height: 200px;
+}
+
 .menu__list {
     display: flex;
     gap: 35px;
